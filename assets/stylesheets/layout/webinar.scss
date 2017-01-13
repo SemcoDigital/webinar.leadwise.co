@@ -1,0 +1,23 @@
+.webinar-list{
+  margin-bottom: 3em;
+}
+
+.webinar-single {
+  display: table;
+  padding: 2em 0;
+  .webinar-img{
+    text-align: center;
+    @include span-columns(2);
+    @include shift(2);
+    img{
+      height: 5em;
+    }
+    h4{
+      color: $lw-blue;
+      letter-spacing: .1em;
+    }
+  }
+  section{
+    @include span-columns(6);
+  }
+}

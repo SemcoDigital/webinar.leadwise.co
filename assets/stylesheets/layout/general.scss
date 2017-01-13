@@ -19,10 +19,6 @@ body {
     @include outer-container;
     display: block;
     margin: 0 auto;
-    // float: right;
-    // list-style: none;
-    // margin: 0;
-    // padding: 0;
     a {
       color: $font-lw-light-bg;
     }
@@ -94,27 +90,16 @@ body {
   }
 }
 
-.about-lw-co{
-  color: $lw-blue;
+.about-webinar{
   display: table;
   padding: 3em 0;
   width: 100%;
   h3{
+    color: $lw-blue;
     text-align: center;
   }
-  .about-col-2{
-    @include span-columns(6);
-    @include omega();
-    padding: 0 2em;
-    @include media($mobile) {
-      @include span-columns(12);
-    }
-    img{
-      height: 8em;
-    }
-  }
-  .products{
-    text-align: center;
+  p{
+    padding: 0 12em;
   }
 }
 

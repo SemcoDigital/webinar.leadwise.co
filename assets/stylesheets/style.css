@@ -105,6 +105,19 @@ button, .btn {
   background: #30A7E9;
   color: #FFFFFF; }
 
+.btn-simple {
+  background: #30A7E9;
+  color: #FFFFFF;
+  font-family: 'open_sans_light';
+  padding: .5em 1em;
+  text-decoration: none; }
+
+.a-simple-link {
+  font-family: 'open_sans_bold';
+  color: #30A7E9;
+  padding: 0 2em;
+  text-decoration: none; }
+
 html,
 body {
   margin: 0;
@@ -219,34 +232,15 @@ body {
         .banner .form-subscribe form button, .banner .form-subscribe form .btn {
           float: right; } }
 
-.about-lw-co {
-  color: #30A7E9;
+.about-webinar {
   display: table;
   padding: 3em 0;
   width: 100%; }
-  .about-lw-co h3 {
+  .about-webinar h3 {
+    color: #30A7E9;
     text-align: center; }
-  .about-lw-co .about-col-2 {
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 48.82117%;
-    margin-right: 0;
-    padding: 0 2em; }
-    .about-lw-co .about-col-2:last-child {
-      margin-right: 0; }
-    @media screen and (max-width: 420px) {
-      .about-lw-co .about-col-2 {
-        float: left;
-        display: block;
-        margin-right: 2.35765%;
-        width: 100%; }
-        .about-lw-co .about-col-2:last-child {
-          margin-right: 0; } }
-    .about-lw-co .about-col-2 img {
-      height: 8em; }
-  .about-lw-co .products {
-    text-align: center; }
+  .about-webinar p {
+    padding: 0 12em; }
 
 .internal-text-block {
   margin: 3em 0; }
@@ -432,6 +426,34 @@ footer {
   footer .footer-bye {
     font-size: .8em;
     text-align: center; }
+
+.webinar-list {
+  margin-bottom: 3em; }
+
+.webinar-single {
+  display: table;
+  padding: 2em 0; }
+  .webinar-single .webinar-img {
+    text-align: center;
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 14.70196%;
+    margin-left: 17.05961%; }
+    .webinar-single .webinar-img:last-child {
+      margin-right: 0; }
+    .webinar-single .webinar-img img {
+      height: 5em; }
+    .webinar-single .webinar-img h4 {
+      color: #30A7E9;
+      letter-spacing: .1em; }
+  .webinar-single section {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 48.82117%; }
+    .webinar-single section:last-child {
+      margin-right: 0; }
 
 .modalDialog {
   position: fixed;

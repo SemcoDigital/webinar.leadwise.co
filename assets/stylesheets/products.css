@@ -105,6 +105,19 @@ button, .btn {
   background: #30A7E9;
   color: #FFFFFF; }
 
+.btn-simple {
+  background: #30A7E9;
+  color: #FFFFFF;
+  font-family: 'open_sans_light';
+  padding: .5em 1em;
+  text-decoration: none; }
+
+.a-simple-link {
+  font-family: 'open_sans_bold';
+  color: #30A7E9;
+  padding: 0 2em;
+  text-decoration: none; }
+
 .menu-products {
   border-bottom: 1px solid #95989A; }
   .menu-products .menu-products-wrap {
