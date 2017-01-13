@@ -1,0 +1,24 @@
+---
+layout: default
+title: LeadWise Podcast
+crazyegg: true
+inspeclet: true
+---
+
+<!--Top Social Media-->
+<div class="top-social">
+  {% include social_links.html %}
+</div>
+
+{% include banner_products.html %}
+
+<!--About-->
+<div class="about-lw-co">
+  <div class="wrap-content">
+    <br clear="all">
+    <h3>LeadWise Webinar</h3>
+    {% for post in site.posts %}
+        <a href="{{ post.url }}"> {{ post.title }} </a> - {{ post.date | | date: "%Y-%m-%d" }}<br>
+    {% endfor %}
+  </div>
+</div>

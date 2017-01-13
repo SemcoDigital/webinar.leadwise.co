@@ -1,0 +1,5 @@
+exclude: ['Gemfile', 'Gemfile.lock', 'README.md', 'Procfile', 'CNAME', 'templates']
+
+## This future flag is important to jekyll compile the `future` posts
+future: true
+permalink: /:categories/webinar/:title.html
