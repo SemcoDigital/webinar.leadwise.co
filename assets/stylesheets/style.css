@@ -87,7 +87,7 @@ textarea {
 textarea {
   resize: vertical; }
 
-button, .btn {
+button, .btn, .btn-cta {
   background: #FFCC00;
   border: 0;
   color: #000000;
@@ -97,7 +97,7 @@ button, .btn {
   letter-spacing: 0.1em;
   padding: .65em 1em;
   text-decoration: none; }
-  button:hover, .btn:hover {
+  button:hover, .btn:hover, .btn-cta:hover {
     cursor: pointer;
     text-decoration: none; }
 
@@ -417,18 +417,41 @@ footer {
     font-size: .8em;
     text-align: center; }
 
-.about-webinar {
+.about-webinar, .content-webinar {
   display: table;
   padding: 3em 0;
   width: 100%; }
-  .about-webinar h3 {
+  .about-webinar h3, .content-webinar h3 {
     color: #30A7E9;
     text-align: center; }
-  .about-webinar p {
+  .about-webinar p, .content-webinar p {
     padding: 0 12em; }
     @media screen and (max-width: 420px) {
-      .about-webinar p {
+      .about-webinar p, .content-webinar p {
         padding: 0 2em; } }
+
+.content-webinar p {
+  padding: 0 8em; }
+
+.webinar-cta {
+  background: #EAEAEA;
+  color: #30A7E9;
+  display: table;
+  padding: 2em 0;
+  width: 100%; }
+  .webinar-cta .webinar-img {
+    float: left;
+    text-align: right;
+    width: 30%; }
+    .webinar-cta .webinar-img img {
+      height: 4em; }
+    .webinar-cta .webinar-img h4 {
+      margin: 0; }
+  .webinar-cta h3 {
+    float: left;
+    padding: 0 2em; }
+  .webinar-cta a {
+    margin: 1.4em 0; }
 
 .webinar-list {
   margin-bottom: 3em; }
