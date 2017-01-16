@@ -1,3 +1,19 @@
+.about-webinar{
+  display: table;
+  padding: 3em 0;
+  width: 100%;
+  h3{
+    color: $lw-blue;
+    text-align: center;
+  }
+  p{
+    padding: 0 12em;
+    @include media($mobile) {
+      padding: 0 2em;
+    }
+  }
+}
+
 .webinar-list{
   margin-bottom: 3em;
 }
@@ -9,6 +25,10 @@
     text-align: center;
     @include span-columns(2);
     @include shift(2);
+    @include media($mobile) {
+      @include span-columns(12);
+    @include shift(0);
+    }
     img{
       height: 5em;
     }
@@ -19,5 +39,9 @@
   }
   section{
     @include span-columns(6);
+    @include media($mobile) {
+      text-align: center;
+      @include span-columns(12);
+    }
   }
 }
