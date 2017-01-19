@@ -78,3 +78,42 @@
     }
   }
 }
+
+.subscribe-block{
+  background: $lw-blue;
+  color: $font-white;
+  padding: 2em 0;
+  .wrap-content{
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+  }
+  img{
+    float: left;
+    height: 6em;
+    margin: 1.5em 0;
+    padding: 0 0 0 2em;;
+    width: 25%;
+    @include media($tablet) {
+      height: 4em;
+    }
+    @include media($mobile) {
+      display: none;
+    }
+  }
+  h2{
+    width: 45%;
+    float: left;
+    margin: 1em 0;
+    @include media($tablet) {
+      width: 30%;
+    }
+    @include media($mobile) {
+      width: 100%;
+      font-size: 1.8em;
+    }
+  }
+  .btn-cta{
+    margin: 1.5em 1em;
+  }
+}
