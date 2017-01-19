@@ -15,7 +15,7 @@ textarea {
   resize: vertical;
 }
 
-button {
+button, .btn-cta {
   background: $lw-cta;
   border: 0;
   color: $lw-black;
@@ -35,4 +35,19 @@ button {
   @extend button;
   background: $lw-blue;
   color: $font-white;
+}
+
+.btn-simple{
+  background: $lw-blue;
+  color: $font-white;
+  font-family: 'open_sans_light';
+  padding: .5em 1em;
+  text-decoration: none;
+}
+
+.a-simple-link{
+  font-family: 'open_sans_bold';
+  color: $lw-blue;
+  padding: 0 2em;
+  text-decoration: none;
 }

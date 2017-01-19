@@ -87,7 +87,7 @@ textarea {
 textarea {
   resize: vertical; }
 
-button, .btn {
+button, .btn, .btn-cta {
   background: #FFCC00;
   border: 0;
   color: #000000;
@@ -97,13 +97,26 @@ button, .btn {
   letter-spacing: 0.1em;
   padding: .65em 1em;
   text-decoration: none; }
-  button:hover, .btn:hover {
+  button:hover, .btn:hover, .btn-cta:hover {
     cursor: pointer;
     text-decoration: none; }
 
 .btn {
   background: #30A7E9;
   color: #FFFFFF; }
+
+.btn-simple {
+  background: #30A7E9;
+  color: #FFFFFF;
+  font-family: 'open_sans_light';
+  padding: .5em 1em;
+  text-decoration: none; }
+
+.a-simple-link {
+  font-family: 'open_sans_bold';
+  color: #30A7E9;
+  padding: 0 2em;
+  text-decoration: none; }
 
 .menu-products {
   border-bottom: 1px solid #95989A; }
