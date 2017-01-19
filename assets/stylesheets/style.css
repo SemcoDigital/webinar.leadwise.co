@@ -118,29 +118,6 @@ button, .btn, .btn-cta {
   padding: 0 2em;
   text-decoration: none; }
 
-.banner-subtitle {
-  background: #FFFFFF;
-  padding: 1em;
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 48.82117%;
-  margin-left: 25.58941%; }
-  .banner-subtitle:last-child {
-    margin-right: 0; }
-  @media screen and (max-width: 420px) {
-    .banner-subtitle {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 82.94039%;
-      margin-left: 8.5298%; }
-      .banner-subtitle:last-child {
-        margin-right: 0; } }
-  .banner-subtitle h2 {
-    color: #95989A;
-    text-align: center; }
-
 .about-webinar, .content-webinar {
   display: table;
   padding: 3em 0;
