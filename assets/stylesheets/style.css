@@ -118,120 +118,51 @@ button, .btn, .btn-cta {
   padding: 0 2em;
   text-decoration: none; }
 
-.about-webinar, .content-webinar {
+.banner {
+  background: url("../images/banner-bg.jpg") 0 0;
+  background-size: cover;
   display: table;
-  padding: 3em 0;
+  padding: 80px 0 200px 0;
+  text-align: center;
   width: 100%; }
-  .about-webinar h3, .content-webinar h3 {
-    color: #30A7E9;
-    text-align: center; }
-  .about-webinar p, .content-webinar p {
-    padding: 0 12em; }
-    @media screen and (max-width: 420px) {
-      .about-webinar p, .content-webinar p {
-        padding: 0 2em; } }
-
-.content-webinar p {
-  padding: 0 8em; }
-
-.webinar-cta {
-  background: #EAEAEA;
-  color: #30A7E9;
-  display: table;
-  padding: 2em 0;
-  width: 100%; }
-  .webinar-cta .webinar-img {
-    float: left;
-    text-align: right;
-    width: 30%; }
-    .webinar-cta .webinar-img img {
-      height: 4em; }
-    .webinar-cta .webinar-img h4 {
-      margin: 0; }
-  .webinar-cta h3 {
-    float: left;
-    padding: 0 2em; }
-  .webinar-cta a {
-    margin: 1.4em 0; }
-
-.webinar-list {
-  margin-bottom: 3em; }
-
-.webinar-single {
-  display: table;
-  padding: 2em 0; }
-  .webinar-single .webinar-img {
-    text-align: center;
-    float: left;
+  @media screen and (max-width: 768px) {
+    .banner {
+      padding: 70px 0 50px 0; } }
+  .banner .logo-leadwise {
+    width: 200px;
     display: block;
-    margin-right: 2.35765%;
-    width: 14.70196%;
-    margin-left: 17.05961%; }
-    .webinar-single .webinar-img:last-child {
-      margin-right: 0; }
-    @media screen and (max-width: 420px) {
-      .webinar-single .webinar-img {
-        float: left;
-        display: block;
-        margin-right: 2.35765%;
-        width: 100%;
-        margin-left: 0%; }
-        .webinar-single .webinar-img:last-child {
-          margin-right: 0; } }
-    .webinar-single .webinar-img img {
-      height: 5em; }
-    .webinar-single .webinar-img h4 {
-      color: #30A7E9;
-      letter-spacing: .1em; }
-  .webinar-single section {
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 48.82117%; }
-    .webinar-single section:last-child {
-      margin-right: 0; }
-    @media screen and (max-width: 420px) {
-      .webinar-single section {
-        text-align: center;
-        float: left;
-        display: block;
-        margin-right: 2.35765%;
-        width: 100%; }
-        .webinar-single section:last-child {
-          margin-right: 0; } }
-
-.subscribe-block {
-  background: #30A7E9;
-  color: #FFFFFF;
-  padding: 2em 0; }
-  .subscribe-block .wrap-content {
-    display: block;
-    margin: 0 auto;
-    width: 80%; }
-  .subscribe-block img {
-    float: left;
-    height: 6em;
-    margin: 1.5em 0;
-    padding: 0 0 0 2em;
-    width: 25%; }
+    margin: 0 auto; }
     @media screen and (max-width: 768px) {
-      .subscribe-block img {
-        height: 4em; } }
-    @media screen and (max-width: 420px) {
-      .subscribe-block img {
-        display: none; } }
-  .subscribe-block h2 {
-    width: 45%;
-    float: left;
-    margin: 1em 0; }
-    @media screen and (max-width: 768px) {
-      .subscribe-block h2 {
-        width: 30%; } }
-    @media screen and (max-width: 420px) {
-      .subscribe-block h2 {
-        width: 100%;
-        font-size: 1.8em; } }
-  .subscribe-block .btn-cta {
-    margin: 1.5em 1em; }
+      .banner .logo-leadwise {
+        width: 150px; } }
+
+.banner-heading h1 {
+  margin: 50px 0 30px 0; }
+  @media screen and (max-width: 768px) {
+    .banner-heading h1 {
+      margin: 0; } }
+.banner-heading h2 {
+  color: #95989A;
+  text-align: center;
+  letter-spacing: .02em;
+  margin: 0; }
+  @media screen and (max-width: 768px) {
+    .banner-heading h2 {
+      font-size: 20px; } }
+@media screen and (max-width: 768px) {
+  .banner-heading {
+    background: #FFFFFF;
+    padding: 20px 10px 10px 10px; } }
+
+.banner-404 h1 {
+  margin: 20px 0 10px 0; }
+  @media screen and (max-width: 768px) {
+    .banner-404 h1 {
+      margin: 0; } }
+.banner-404 .btn {
+  margin-top: 40px; }
+  @media screen and (max-width: 768px) {
+    .banner-404 .btn {
+      margin-top: 20px; } }
 
 /*# sourceMappingURL=style.css.map */
