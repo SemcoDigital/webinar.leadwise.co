@@ -122,6 +122,12 @@ a:hover {
   -webkit-transition: all 0.2s ease-in-out 0s;
   transition: all 0.2s ease-in-out 0s; }
 
+.banner .wrap-content {
+  width: 800px; }
+  @media screen and (max-width: 768px) {
+    .banner .wrap-content {
+      width: 100%; } }
+
 .banner {
   background: url("../images/banner-bg.jpg") 0 0;
   background-size: cover;
@@ -131,7 +137,7 @@ a:hover {
   width: 100%; }
   @media screen and (max-width: 768px) {
     .banner {
-      padding: 70px 0 50px 0; } }
+      padding: 70px 0 40px 0; } }
   .banner .logo-leadwise {
     width: 200px;
     display: block;
@@ -152,7 +158,7 @@ a:hover {
   margin: 0; }
   @media screen and (max-width: 768px) {
     .banner-heading h2 {
-      font-size: 20px; } }
+      font-size: 22px; } }
 @media screen and (max-width: 768px) {
   .banner-heading {
     background: #FFFFFF;
