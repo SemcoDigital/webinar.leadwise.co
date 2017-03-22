@@ -9,7 +9,7 @@ a:hover {
 .banner {
 
   .wrap-content {
-    width: 800px;
+
 
     @include media($tablet) {
       width: 100%;
@@ -21,8 +21,9 @@ a:hover {
 // Banner
 
 .banner {
-  background: url("../images/banner-bg.jpg") 0 0;
+  background: url("../images/banner-bg.jpg") 0 140px;
   background-size: cover;
+  background-repeat: repeat-x;
   display: table;
   padding: 80px 0 200px 0;
   text-align: center;
@@ -47,6 +48,7 @@ a:hover {
 
   h1 {
     margin: 50px 0 30px 0;
+    line-height: 62px;
 
     @include media($tablet) {
       margin: 0;
@@ -54,12 +56,14 @@ a:hover {
   }
 
   h2 {
+    width: 760px;
     color: $font-lw-light-bg;
     text-align: center;
     letter-spacing: .02em;
-    margin: 0;
+    margin: 0 auto;
 
     @include media($tablet) {
+      width: 100%;
       font-size: 22px;
     }
   }

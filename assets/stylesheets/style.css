@@ -122,15 +122,14 @@ a:hover {
   -webkit-transition: all 0.2s ease-in-out 0s;
   transition: all 0.2s ease-in-out 0s; }
 
-.banner .wrap-content {
-  width: 800px; }
-  @media screen and (max-width: 768px) {
-    .banner .wrap-content {
-      width: 100%; } }
+@media screen and (max-width: 768px) {
+  .banner .wrap-content {
+    width: 100%; } }
 
 .banner {
-  background: url("../images/banner-bg.jpg") 0 0;
+  background: url("../images/banner-bg.jpg") 0 140px;
   background-size: cover;
+  background-repeat: repeat-x;
   display: table;
   padding: 80px 0 200px 0;
   text-align: center;
@@ -147,17 +146,20 @@ a:hover {
         width: 150px; } }
 
 .banner-heading h1 {
-  margin: 50px 0 30px 0; }
+  margin: 50px 0 30px 0;
+  line-height: 62px; }
   @media screen and (max-width: 768px) {
     .banner-heading h1 {
       margin: 0; } }
 .banner-heading h2 {
+  width: 760px;
   color: #95989A;
   text-align: center;
   letter-spacing: .02em;
-  margin: 0; }
+  margin: 0 auto; }
   @media screen and (max-width: 768px) {
     .banner-heading h2 {
+      width: 100%;
       font-size: 22px; } }
 @media screen and (max-width: 768px) {
   .banner-heading {
