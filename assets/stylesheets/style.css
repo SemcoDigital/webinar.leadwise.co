@@ -167,37 +167,43 @@ a:hover {
     background: rgba(255, 255, 255, 0.8);
     padding: 20px 10px 10px 10px; } }
 
-.sub-banner {
-  background: red; }
-  .sub-banner::after {
-    clear: both;
-    content: "";
-    display: block; }
-  .sub-banner .call-01,
-  .sub-banner .call-02 {
-    width: 50%;
-    height: 240px;
-    box-sizing: border-box;
+.sub-banner::after {
+  clear: both;
+  content: "";
+  display: block; }
+.sub-banner .call-01,
+.sub-banner .call-02 {
+  width: 50%;
+  height: 240px;
+  box-sizing: border-box;
+  background-size: cover;
+  color: #fff; }
+  .sub-banner .call-01 > div,
+  .sub-banner .call-02 > div {
     padding: 40px 0 0 0;
-    color: #fff; }
-    .sub-banner .call-01 h3,
-    .sub-banner .call-02 h3 {
-      margin: 0 0 15px 0; }
-    .sub-banner .call-01 p,
-    .sub-banner .call-02 p {
-      margin: 0;
-      width: 300px; }
-  .sub-banner .call-01 {
+    height: 240px; }
+  .sub-banner .call-01 h3,
+  .sub-banner .call-02 h3 {
+    margin: 0 0 15px 0; }
+  .sub-banner .call-01 p,
+  .sub-banner .call-02 p {
+    margin: 0;
+    width: 300px; }
+.sub-banner .call-01 {
+  background: url("../images/square-bg-01.jpg");
+  text-align: right;
+  float: left; }
+  .sub-banner .call-01 > div {
     padding-right: 30px;
-    background: #3ca5e0;
-    text-align: right;
-    float: left; }
-    .sub-banner .call-01 p {
-      float: right; }
-  .sub-banner .call-02 {
-    padding-left: 30px;
-    background: #d3a104;
+    background: rgba(60, 165, 224, 0.9); }
+  .sub-banner .call-01 p {
     float: right; }
+.sub-banner .call-02 {
+  background: url("../images/square-bg-02.jpg");
+  float: right; }
+  .sub-banner .call-02 > div {
+    padding-left: 30px;
+    background: rgba(211, 161, 4, 0.9); }
 
 .banner-404 h1 {
   margin: 20px 0 10px 0; }

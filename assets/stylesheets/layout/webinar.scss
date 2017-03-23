@@ -79,7 +79,6 @@ a:hover {
 // Sub banner
 
 .sub-banner {
-  background: red;
   @include clearfix;
 
   .call-01,
@@ -87,8 +86,13 @@ a:hover {
     width: 50%;
     height: 240px;
     box-sizing: border-box;
-    padding: 40px 0 0 0;
+    background-size: cover;
     color: #fff;
+
+    > div {
+      padding: 40px 0 0 0;
+      height: 240px;
+    }
 
     h3 {
       margin: 0 0 15px 0;
@@ -101,10 +105,14 @@ a:hover {
   }
 
   .call-01 {
-    padding-right: 30px;
-    background: #3ca5e0;
+    background: url("../images/square-bg-01.jpg");
     text-align: right;
     float: left;
+
+    > div {
+      padding-right: 30px;
+      background: rgba(#3ca5e0, .9);
+    }
 
     p {
       float: right;
@@ -112,9 +120,13 @@ a:hover {
   }
 
   .call-02 {
-    padding-left: 30px;
-    background: #d3a104;
+    background: url("../images/square-bg-02.jpg");
     float: right;
+
+    > div {
+      padding-left: 30px;
+      background: rgba(#d3a104, .9);
+    }
   }
 }
 
