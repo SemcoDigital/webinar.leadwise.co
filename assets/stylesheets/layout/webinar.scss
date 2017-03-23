@@ -89,6 +89,15 @@ a:hover {
     background-size: cover;
     color: #fff;
 
+    @include media($tablet) {
+      width: 100%;
+      height: auto;
+
+      br {
+        display: none;
+      }
+    }
+
     > div {
       padding: 40px 0 0 0;
       height: 240px;
@@ -96,6 +105,10 @@ a:hover {
 
     h3 {
       margin: 0 0 15px 0;
+
+      @include media($tablet) {
+        font-size: 26px;
+      }
     }
 
     p {
@@ -170,7 +183,7 @@ a:hover {
   margin-right: 4px;
   margin-top: 15px;
 
-  @include media($mobile) {
+  @include media($tablet) {
     width: 100%;
     display: block;
     box-sizing: border-box;

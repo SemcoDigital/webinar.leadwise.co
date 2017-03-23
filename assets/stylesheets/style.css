@@ -180,6 +180,14 @@ a:hover {
   box-sizing: border-box;
   background-size: cover;
   color: #fff; }
+  @media screen and (max-width: 768px) {
+    .sub-banner .call-01,
+    .sub-banner .call-02 {
+      width: 100%;
+      height: auto; }
+      .sub-banner .call-01 br,
+      .sub-banner .call-02 br {
+        display: none; } }
   .sub-banner .call-01 > div,
   .sub-banner .call-02 > div {
     padding: 40px 0 0 0;
@@ -187,6 +195,10 @@ a:hover {
   .sub-banner .call-01 h3,
   .sub-banner .call-02 h3 {
     margin: 0 0 15px 0; }
+    @media screen and (max-width: 768px) {
+      .sub-banner .call-01 h3,
+      .sub-banner .call-02 h3 {
+        font-size: 26px; } }
   .sub-banner .call-01 p,
   .sub-banner .call-02 p {
     margin: 0;
@@ -236,7 +248,7 @@ a:hover {
   text-align: left !important;
   margin-right: 4px;
   margin-top: 15px; }
-  @media screen and (max-width: 420px) {
+  @media screen and (max-width: 768px) {
     .sample-but {
       width: 100%;
       display: block;
