@@ -127,11 +127,11 @@ a:hover {
     width: 100%; } }
 
 .banner {
-  background: url("../images/banner-bg.jpg") 0 140px;
+  background: url("../images/banner-bg.jpg") 0 180px;
   background-size: cover;
   background-repeat: repeat-x;
   display: table;
-  padding: 80px 0 200px 0;
+  padding: 80px 0 100px 0;
   text-align: center;
   width: 100%; }
   @media screen and (max-width: 768px) {
@@ -166,6 +166,38 @@ a:hover {
   .banner-heading {
     background: rgba(255, 255, 255, 0.8);
     padding: 20px 10px 10px 10px; } }
+
+.sub-banner {
+  background: red; }
+  .sub-banner::after {
+    clear: both;
+    content: "";
+    display: block; }
+  .sub-banner .call-01,
+  .sub-banner .call-02 {
+    width: 50%;
+    height: 240px;
+    box-sizing: border-box;
+    padding: 40px 0 0 0;
+    color: #fff; }
+    .sub-banner .call-01 h3,
+    .sub-banner .call-02 h3 {
+      margin: 0 0 15px 0; }
+    .sub-banner .call-01 p,
+    .sub-banner .call-02 p {
+      margin: 0;
+      width: 300px; }
+  .sub-banner .call-01 {
+    padding-right: 30px;
+    background: #3ca5e0;
+    text-align: right;
+    float: left; }
+    .sub-banner .call-01 p {
+      float: right; }
+  .sub-banner .call-02 {
+    padding-left: 30px;
+    background: #d3a104;
+    float: right; }
 
 .banner-404 h1 {
   margin: 20px 0 10px 0; }
