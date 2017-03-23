@@ -6,10 +6,10 @@ a:hover {
 
 // Grid
 
-.banner {
+.programs {
 
   .wrap-content {
-
+    width: 800px;
 
     @include media($tablet) {
       width: 100%;
@@ -128,6 +128,218 @@ a:hover {
       background: rgba(#d3a104, .9);
     }
   }
+}
+
+
+// Buttons
+
+.yellow-but {
+  background: #ffcc00;
+  color: $lw-black;
+}
+
+.blue-but {
+  background: $lw-blue;
+  color: #fff;
+
+  &:active {
+    box-shadow: inset 0 0 6px #2186be;
+    opacity: 1;
+  }
+}
+
+.gray-but {
+  background: rgba($lw-light-bg, .7);
+  color: $lw-blue;
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.sample-but {
+  height: 40px;
+  line-height: 41px;
+  padding: 0 15px;
+  border-radius: 2px;
+  text-decoration: none;
+  font-size: 12px;
+  display: inline-block;
+  font-family: 'open_sans_bold';
+  text-align: left !important;
+  margin-right: 4px;
+  margin-top: 15px;
+
+  @include media($mobile) {
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    margin-top: 7px;
+  }
+
+  &:hover {
+    opacity: .9;
+  }
+
+  .fa {
+    margin: 11px 10px 0 0;
+    font-size: 18px;
+    float: left;
+  }
+}
+
+
+// Programs list
+
+.programs {
+  text-align: center;
+  padding: 0 0 60px 0;
+  background: $lw-light-bg;
+
+  h3 {
+    color: #777;
+    padding: 60px 0 0 0;
+    margin: 0;
+
+    @include media($tablet) {
+      font-size: 26px;
+    }
+  }
+}
+
+.programs-list {
+  text-align: left;
+  margin: 50px 0 0 0;
+  padding: 0;
+
+  @include media($tablet) {
+    margin-top: 30px;
+  }
+
+  li {
+    background: #fff;
+    list-style-type: none;
+    margin: 50px 0 0 0;
+    padding: 15px;
+    box-shadow: 0 0 10px #d7d7d7;
+    position: relative;
+    @include clearfix;
+
+    @include media($tablet) {
+      text-align: center;
+      border-top: 2px solid $lw-light-bg;
+      padding-top: 30px;
+      margin-top: 30px;
+    }
+
+    > img {
+      width: 200px;
+      float: left;
+
+      @include media($tablet) {
+        float: none;
+        margin-top: 20px;
+      }
+    }
+  }
+
+  li:first-child {
+
+    @include media($tablet) {
+      border-top: none;
+      padding-top: 0;
+      margin-top: 0;
+    }
+  }
+
+  .program-infos {
+    margin-left: 230px;
+    margin-right: 165px;
+    border-right: 1px solid $lw-light-bg;
+    padding: 10px 20px 0 0;
+
+    @include media($tablet) {
+      margin: 20px 0 0 0;
+      text-align: left;
+      border-right: none;
+      padding-right: 0;
+      border-bottom: 1px solid $lw-light-bg;
+      padding-bottom: 25px;
+    }
+
+    .second {
+      margin-left: 20px;
+    }
+  }
+
+  h4 {
+    margin: 0 0 5px 0;
+    color: $lw-blue;
+
+    a {
+      text-decoration: none;
+      color: $lw-blue;
+
+      &:hover {
+        opacity: .8;
+      }
+    }
+  }
+
+  p {
+    font-size: 14px;
+    margin: 7px 0 0 0;
+    line-height: 22px;
+
+    @include media($tablet) {
+      margin-bottom: 15px;
+    }
+  }
+}
+
+.program-aside {
+  width: 150px;
+  position: absolute;
+  right: 0;
+  top: 15px;
+
+  @include media($tablet) {
+    width: 100%;
+    position: inherit;
+    right: none;
+    top: none;
+    text-align: left;
+    padding-bottom: 20px;
+  }
+
+  > div {
+    font-size: 12px;
+    margin-top: 10px;
+    color: $font-lw-light-bg;
+
+    strong {
+      font-family: 'open_sans_bold';
+    }
+  }
+}
+
+.in-person {
+  font-family: open_sans_bold;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #000 !important;
+}
+
+.soon {
+  height: 20px;
+  line-height: 20px;
+  padding: 0 5px;
+  background: #ffcc00;
+  display: inline-block;
+  color: #000;
+  font-family: open_sans_bold;
+  font-size: 11px;
+  text-transform: uppercase;
 }
 
 
