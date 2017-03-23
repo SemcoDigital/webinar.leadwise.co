@@ -150,6 +150,7 @@ a:hover {
   line-height: 62px; }
   @media screen and (max-width: 768px) {
     .banner-heading h1 {
+      line-height: 31px;
       margin: 0; } }
 .banner-heading h2 {
   width: 760px;
@@ -163,7 +164,7 @@ a:hover {
       font-size: 22px; } }
 @media screen and (max-width: 768px) {
   .banner-heading {
-    background: #FFFFFF;
+    background: rgba(255, 255, 255, 0.8);
     padding: 20px 10px 10px 10px; } }
 
 .banner-404 h1 {
