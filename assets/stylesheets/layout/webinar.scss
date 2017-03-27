@@ -206,7 +206,7 @@ a:hover {
 
 .programs {
   text-align: center;
-  padding: 0 0 60px 0;
+  padding: 1px 0 60px 0;
   background: $lw-light-bg;
 
   h3 {
@@ -287,11 +287,9 @@ a:hover {
 
   h4 {
     margin: 0 0 5px 0;
-    color: $lw-blue;
 
     a {
       text-decoration: none;
-      color: $lw-blue;
 
       &:hover {
         opacity: .8;
@@ -354,6 +352,28 @@ a:hover {
   font-family: open_sans_bold;
   font-size: 11px;
   text-transform: uppercase;
+}
+
+.program-type-01 {
+
+  h4 {
+    color: $lw-blue;
+
+    a {
+      color: $lw-blue;
+    }
+  }
+}
+
+.program-type-02 {
+
+  h4 {
+    color: #d3a104 !important;
+
+    a {
+      color: #d3a104 !important;
+    }
+  }
 }
 
 
