@@ -129,23 +129,20 @@ a:hover {
       width: 100%; } }
 
 .banner {
-  background: url("../images/banner-bg.jpg") 0 -55px;
+  background: url("../images/banner-bg.jpg") 0 -60px;
   background-size: cover;
   background-repeat: no-repeat;
   display: table;
-  padding: 70px 0 150px 0;
+  padding: 70px 0 160px 0;
   text-align: center;
   width: 100%; }
   @media screen and (max-width: 768px) {
     .banner {
       padding: 70px 0 40px 0; } }
   .banner .logo-leadwise {
-    width: 180px;
+    width: 150px;
     display: block;
     margin: 0 auto; }
-    @media screen and (max-width: 768px) {
-      .banner .logo-leadwise {
-        width: 150px; } }
 
 .banner-heading h1 {
   margin: 37px 0 15px 0;

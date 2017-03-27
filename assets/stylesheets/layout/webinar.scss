@@ -21,11 +21,11 @@ a:hover {
 // Banner
 
 .banner {
-  background: url("../images/banner-bg.jpg") 0 -55px;
+  background: url("../images/banner-bg.jpg") 0 -60px;
   background-size: cover;
   background-repeat: no-repeat;
   display: table;
-  padding: 70px 0 150px 0;
+  padding: 70px 0 160px 0;
   text-align: center;
   width: 100%;
 
@@ -34,13 +34,9 @@ a:hover {
   }
 
   .logo-leadwise {
-    width: 180px;
+    width: 150px;
     display: block;
     margin: 0 auto;
-
-    @include media($tablet) {
-      width: 150px;
-    }
   }
 }
 
