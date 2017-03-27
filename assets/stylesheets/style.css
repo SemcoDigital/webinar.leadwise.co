@@ -174,8 +174,8 @@ a:hover {
 .sub-banner .call-02 {
   width: 50%;
   height: 240px;
-  box-sizing: border-box;
   background-size: cover;
+  box-sizing: border-box;
   color: #fff; }
   @media screen and (max-width: 768px) {
     .sub-banner .call-01,
@@ -201,7 +201,7 @@ a:hover {
     margin: 0;
     width: 300px; }
 .sub-banner .call-01 {
-  background: url("../images/square-bg-01.jpg");
+  background-image: url("../images/square-bg-01.jpg");
   text-align: right;
   float: left; }
   .sub-banner .call-01 > div {
@@ -210,7 +210,7 @@ a:hover {
   .sub-banner .call-01 p {
     float: right; }
 .sub-banner .call-02 {
-  background: url("../images/square-bg-02.jpg");
+  background-image: url("../images/square-bg-02.jpg");
   float: right; }
   .sub-banner .call-02 > div {
     padding-left: 30px;
