@@ -30,7 +30,7 @@ a:hover {
   width: 100%;
 
   @include media($tablet) {
-    padding: 70px 0 40px 0;
+    background-position: 0 30px;
   }
 
   .logo-leadwise {
