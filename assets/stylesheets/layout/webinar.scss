@@ -146,17 +146,27 @@ a:hover {
   border: 1px solid $lw-blue;
   background: rgba($lw-light-bg, .7);
   color: $lw-blue;
+
+  &:hover {
+    background: rgba($lw-blue, 1);
+    color: #fff;
+  }
 }
 
 .orange-but {
   border: 1px solid #d3a104;
   background: rgba($lw-light-bg, .7);
   color: #d3a104;
+
+  &:hover {
+    background: rgba(#d3a104, 1);
+    color: #fff;
+  }
 }
 
 .sample-but {
   height: 40px;
-  line-height: 41px;
+  line-height: 38px;
   padding: 0 15px;
   border-radius: 2px;
   text-decoration: none;
@@ -172,10 +182,6 @@ a:hover {
     display: block;
     box-sizing: border-box;
     margin-top: 7px;
-  }
-
-  &:hover {
-    opacity: .9;
   }
 
   .fa {
@@ -253,7 +259,7 @@ a:hover {
     margin-left: 230px;
     margin-right: 170px;
     border-right: 1px solid $lw-light-bg;
-    padding: 10px 20px 0 0;
+    padding: 2px 20px 0 0;
 
     @include media($tablet) {
       margin: 20px 0 0 0;

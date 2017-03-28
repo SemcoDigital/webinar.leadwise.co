@@ -220,15 +220,21 @@ a:hover {
   border: 1px solid #30A7E9;
   background: rgba(234, 234, 234, 0.7);
   color: #30A7E9; }
+  .blue-but:hover {
+    background: #30a7e9;
+    color: #fff; }
 
 .orange-but {
   border: 1px solid #d3a104;
   background: rgba(234, 234, 234, 0.7);
   color: #d3a104; }
+  .orange-but:hover {
+    background: #d3a104;
+    color: #fff; }
 
 .sample-but {
   height: 40px;
-  line-height: 41px;
+  line-height: 38px;
   padding: 0 15px;
   border-radius: 2px;
   text-decoration: none;
@@ -244,8 +250,6 @@ a:hover {
       display: block;
       box-sizing: border-box;
       margin-top: 7px; } }
-  .sample-but:hover {
-    opacity: .9; }
   .sample-but .fa {
     margin: 11px 10px 0 0;
     font-size: 18px;
@@ -303,7 +307,7 @@ a:hover {
     margin-left: 230px;
     margin-right: 170px;
     border-right: 1px solid #EAEAEA;
-    padding: 10px 20px 0 0; }
+    padding: 2px 20px 0 0; }
     @media screen and (max-width: 768px) {
       .programs-list .program-infos {
         margin: 20px 0 0 0;
