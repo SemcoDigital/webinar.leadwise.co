@@ -21,16 +21,16 @@ a:hover {
 // Banner
 
 .banner {
-  background: url("../images/banner-bg.jpg") 0 -60px;
-  background-size: cover;
-  background-repeat: no-repeat;
+  background: url("../images/bg-webinars.svg") 0 0;
+  background-position: bottom;
+  background-repeat: repeat-x;
   display: table;
   padding: 70px 0 160px 0;
   text-align: center;
   width: 100%;
 
   @include media($tablet) {
-    background-position: 0 30px;
+    // background-position: 0 30px;
   }
 
   .logo-leadwise {
@@ -76,14 +76,16 @@ a:hover {
 
 .sub-banner {
   @include clearfix;
+  @include outer-container;
 
   .call-01,
   .call-02 {
     width: 50%;
-    height: 240px;
+    // height: 240px;
     background-size: cover;
     box-sizing: border-box;
-    color: #fff;
+    padding: 0 4em;
+    text-align: center;
 
     @include media($tablet) {
       width: 100%;
@@ -96,7 +98,7 @@ a:hover {
 
     > div {
       padding: 40px 0 0 0;
-      height: 240px;
+      // height: 240px;
     }
 
     h3 {
@@ -109,18 +111,21 @@ a:hover {
 
     p {
       margin: 0;
-      width: 300px;
+      // width: 300px;
     }
   }
 
   .call-01 {
-    background-image: url("../images/square-bg-01.jpg");
-    text-align: right;
+    // background-image: url("../images/square-bg-01.jpg");
     float: left;
+
+    h3{
+      color: rgba(#3ca5e0, .9);
+    }
 
     > div {
       padding-right: 30px;
-      background: rgba(#3ca5e0, .9);
+      // background: rgba(#3ca5e0, .9);
     }
 
     p {
@@ -129,12 +134,16 @@ a:hover {
   }
 
   .call-02 {
-    background-image: url("../images/square-bg-02.jpg");
+    // background-image: url("../images/square-bg-02.jpg");
     float: right;
+
+    h3{
+      color: rgba(#d3a104, .9);
+    }
 
     > div {
       padding-left: 30px;
-      background: rgba(#d3a104, .9);
+      // background: rgba(#d3a104, .9);
     }
   }
 }
@@ -197,7 +206,7 @@ a:hover {
 .programs {
   text-align: center;
   padding: 1px 0 60px 0;
-  background: $lw-light-bg;
+  // background: $lw-light-bg;
 
   h3 {
     color: #777;
