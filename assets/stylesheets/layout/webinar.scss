@@ -30,7 +30,7 @@ a:hover {
   width: 100%;
 
   @include media($tablet) {
-    padding-bottom: 50px;
+    padding-bottom: 60px;
   }
 
   .logo-leadwise {
@@ -48,7 +48,7 @@ a:hover {
 
     @include media($tablet) {
       line-height: 31px;
-      margin: 0;
+      margin: 10px 0 0 0;
     }
   }
 
@@ -62,12 +62,8 @@ a:hover {
     @include media($tablet) {
       width: 100%;
       font-size: 22px;
+      margin-top: 15px;
     }
-  }
-
-  @include media($tablet) {
-    background: rgba($font-white, .8);
-    padding: 20px 10px 10px 10px;
   }
 }
 
@@ -87,6 +83,7 @@ a:hover {
     @include media($tablet) {
       width: 100%;
       height: auto;
+      padding: 0;
 
       br {
         display: none;
@@ -204,16 +201,10 @@ a:hover {
 
 .programs {
   text-align: center;
-  padding: 20px 0 60px 0;
+  padding: 0 0 60px 0;
 
-  h3 {
-    color: #777;
-    padding: 60px 0 0 0;
-    margin: 0;
-
-    @include media($tablet) {
-      font-size: 26px;
-    }
+  @include media($tablet) {
+    padding-bottom: 50px;
   }
 }
 
@@ -223,7 +214,7 @@ a:hover {
   padding: 0;
 
   @include media($tablet) {
-    margin-top: 30px;
+    margin-top: 50px;
   }
 
   li {
@@ -232,13 +223,12 @@ a:hover {
     margin: 50px 0 0 0;
     padding: 15px;
     box-sizing: border-box;
-    border: 1px solid $lw-light-bg;
+    border: 1px solid $lw-light-bg !important;
     position: relative;
     @include clearfix;
 
     @include media($tablet) {
       text-align: center;
-      border-top: 2px solid $lw-light-bg;
       padding-top: 30px;
       margin-top: 30px;
     }
