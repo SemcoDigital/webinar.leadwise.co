@@ -280,7 +280,8 @@ a:hover {
     list-style-type: none;
     margin: 50px 0 0 0;
     padding: 15px;
-    box-shadow: 0 0 10px #d7d7d7;
+    box-sizing: border-box;
+    border: 1px solid #EAEAEA;
     position: relative; }
     .programs-list li::after {
       clear: both;
