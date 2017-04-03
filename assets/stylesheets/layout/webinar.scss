@@ -30,7 +30,7 @@ a:hover {
   width: 100%;
 
   @include media($tablet) {
-    // background-position: 0 30px;
+    padding-bottom: 50px;
   }
 
   .logo-leadwise {
@@ -76,13 +76,10 @@ a:hover {
 
 .sub-banner {
   @include clearfix;
-  @include outer-container;
 
   .call-01,
   .call-02 {
     width: 50%;
-    // height: 240px;
-    background-size: cover;
     box-sizing: border-box;
     padding: 0 4em;
     text-align: center;
@@ -98,7 +95,6 @@ a:hover {
 
     > div {
       padding: 40px 0 0 0;
-      // height: 240px;
     }
 
     h3 {
@@ -111,21 +107,22 @@ a:hover {
 
     p {
       margin: 0;
-      // width: 300px;
     }
   }
 
   .call-01 {
-    // background-image: url("../images/square-bg-01.jpg");
     float: left;
 
-    h3{
+    h3 {
       color: rgba(#3ca5e0, .9);
     }
 
     > div {
       padding-right: 30px;
-      // background: rgba(#3ca5e0, .9);
+
+      @include media($tablet) {
+        padding-right: 0;
+      }
     }
 
     p {
@@ -134,16 +131,18 @@ a:hover {
   }
 
   .call-02 {
-    // background-image: url("../images/square-bg-02.jpg");
     float: right;
 
-    h3{
+    h3 {
       color: rgba(#d3a104, .9);
     }
 
     > div {
       padding-left: 30px;
-      // background: rgba(#d3a104, .9);
+
+      @include media($tablet) {
+        padding-left: 0;
+      }
     }
   }
 }
@@ -205,8 +204,7 @@ a:hover {
 
 .programs {
   text-align: center;
-  padding: 1px 0 60px 0;
-  // background: $lw-light-bg;
+  padding: 20px 0 60px 0;
 
   h3 {
     color: #777;
