@@ -298,10 +298,6 @@ a:hover {
     font-size: 14px;
     margin: 7px 0 0 0;
     line-height: 22px;
-
-    @include media($tablet) {
-      margin-bottom: 15px;
-    }
   }
 }
 
@@ -349,6 +345,7 @@ a:hover {
   font-family: open_sans_bold;
   font-size: 11px;
   text-transform: uppercase;
+  margin-top: 15px;
 }
 
 .program-type-01 {
