@@ -31,6 +31,10 @@ a:hover {
 
   @include media($tablet) {
     padding-bottom: 60px;
+
+    br {
+      display: none;
+    }
   }
 
   .logo-leadwise {

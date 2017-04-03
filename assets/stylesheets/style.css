@@ -138,7 +138,9 @@ a:hover {
   width: 100%; }
   @media screen and (max-width: 768px) {
     .banner {
-      padding-bottom: 60px; } }
+      padding-bottom: 60px; }
+      .banner br {
+        display: none; } }
   .banner .logo-leadwise {
     width: 150px;
     display: block;
